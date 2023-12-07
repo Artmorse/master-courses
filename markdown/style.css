@@ -1,0 +1,25 @@
+img[alt$=">mini"] {
+    height: 1em;
+    width: auto;
+    margin-bottom: 0 !important;
+}
+
+img[alt$=">icon"] {
+    height: 3em;
+    width: auto;
+}
+
+img[alt$=">h"] {
+    height: 10em;
+    width: auto;
+}
+
+img[alt$=">w"] {
+    height: auto;
+    width: 80%;
+}
+
+img[alt$=">hh"] {
+    height: 15em;
+    width: auto;
+}

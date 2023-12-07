@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <title>{{pageTitle}}</title>
+        <!-- <link rel="icon" type="image/x-icon" href="img/logo.png"> -->
+
+        <link rel="stylesheet" href="{{{themeUrl}}}" id="theme"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+        <style>
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 10%;
+                width: 40em;
+                height: auto;
+            }
+
+            body {
+            font-family: "Poppins", sans-serif;
+            }
+
+            li {
+            font-size: 2em;
+            color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- <img src="img/jenkins.png" alt="Jenkins" class="center">  -->
+
+        <ul class="center">
+            {{#files}}
+            <li>
+                <a href="{{filePath}}" title="{{title}}">
+                    {{#title}}{{.}} ({{filePath}}){{/title}}{{^title}}{{filePath}}{{/title}}
+                </a>
+            </li>
+            {{/files}}
+        </ul>
+    </body>
+
+
+
+    <script>
+        function randomBackground() {
+            const r = Math.floor(Math.random()*(250-200+1)+200);
+            const g = Math.floor(Math.random()*(130-90+1)+90);
+            const b = Math.floor(Math.random()*(50-10+1)+50);
+
+            const html = document.querySelector('html');
+            html.style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")";
+        }
+        randomBackground()
+        setInterval(randomBackground, 2000)
+    </script>
+
+
+</html>
