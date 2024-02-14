@@ -1,6 +1,6 @@
 ---
 author: Arthur CARON
-title: "90 - Misc stuff: project"
+title: "90 - Misc stuff: Project"
 date: "2023-12-07"
 theme: "moon"
 separator: ---h---
@@ -17,24 +17,46 @@ misc stuff useful for the project 👀
 
 ### Java
 
-- Picocli
-- Lombok
+- [Picocli](https://picocli.info/)
+- [Lombok](https://projectlombok.org/)
 - Panache
 
 ---v---
 
 ### Git tips
 
-- Github CLI
-- gitconfig
-- gitmoji
-- husky
+- [gitconfig](https://git-scm.com/docs/git-config)
+- [gitmoji](https://gitmoji.dev/)
+- [husky](https://github.com/typicode/husky) ⚠️ JS only
+
+---v---
+
+### Git CLI
+
+- [gh](https://cli.github.com/)
+- [glab](https://docs.gitlab.com/ee/editor_extensions/gitlab_cli/)
+
+---v---
+
+### Git GUI
+
+- IDE's (VSCode, JetBrains...)
+- [Gitfiend](https://gitfiend.com/overview)
 
 ---v---
 
 ### HTTP clients
 
-- cURL
-- Postman
-- Insomnia
+- [cURL](https://curl.se/)
+- [Postman](https://www.postman.com/)
+- [Insomnia](https://insomnia.rest/)
 - IntelliJ Ultimate
+
+---v---
+
+### Parsers
+
+- jq
+- yq
+
+---v---

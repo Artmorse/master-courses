@@ -1,6 +1,6 @@
 ---
 author: Arthur CARON
-title: "90 - Misc stuff: project"
+title: "92 - Misc stuff: Environment"
 date: "2023-12-07"
 theme: "moon"
 separator: ---h---
@@ -39,3 +39,13 @@ verticalSeparator: ---v---
 
 - Ligatures
 
+---v---
+
+### TODO
+
+- topgrade
+
+---v---
+
+SSH
+SFTP

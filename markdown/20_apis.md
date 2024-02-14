@@ -775,15 +775,13 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 
 ---v---
 
-# 404
+# 200
 
-### [Not Found](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+### [OK](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200)
 
----v---
+note:
 
-# 501
-
-### [Not Implemented](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/501)
+Retourne l'entité
 
 ---v---
 
@@ -797,19 +795,9 @@ Elle doit avoir été créé avant l'envoi de la reponse sinon c'est un 202 : ac
 
 ---v---
 
-# 200
+# 204
 
-### [OK](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200)
-
-note:
-
-Retourne l'entité 
-
----v---
-
-# 403
-
-### [Forbidden](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403)
+### [No Content](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/204)
 
 ---v---
 
@@ -822,17 +810,23 @@ exemple: proxy, mailing...
 
 ---v---
 
-# 418
-
-### [I'm a teapot](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418)
-
----v---
-
 # 400
 
 ### [Bad Request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400)
 
 note: The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).
+
+---v---
+
+# 403
+
+### [Forbidden](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403)
+
+---v---
+
+# 404
+
+### [Not Found](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
 
 ---v---
 
@@ -846,6 +840,12 @@ note: The HTTP 409 Conflict response status code indicates a request conflict wi
 
 ---v---
 
+# 418
+
+### [I'm a teapot](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418)
+
+---v---
+
 # 422
 
 ### [Unprocessable Entity](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
@@ -853,6 +853,12 @@ note: The HTTP 409 Conflict response status code indicates a request conflict wi
 ### 🤔 [GitHub](https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#delete-a-file)
 
 note: The request was well-formed but was unable to be followed due to semantic errors.
+
+---v---
+
+# 501
+
+### [Not Implemented](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/501)
 
 ---v---
 
@@ -965,4 +971,4 @@ Et pour supprimer ?
 
 ## 🙃 TP 🙃
 
-// TODO
+[TP01](https://github.com/Artmorse/api-rest-tps/tree/tp01)

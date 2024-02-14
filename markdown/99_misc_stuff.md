@@ -1,6 +1,6 @@
 ---
 author: Arthur CARON
-title: 99 - Misc stuff
+title: "99 - Misc stuff"
 date: "2023-12-07"
 theme: "moon"
 separator: ---h---
@@ -10,6 +10,22 @@ verticalSeparator: ---v---
 ## Misc Stuff
 
 ![gif technology >w](https://media0.giphy.com/media/pOEbLRT4SwD35IELiQ/giphy.gif)
+
+---h---
+
+### Homelab
+
+- NAS
+- Bare metal Hypervisor
+  - [Proxmox](https://www.proxmox.com/en/)
+  - [VMWare ESX](https://www.vmware.com/products/esxi-and-esx.html)
+  - [Harvester](https://harvesterhci.io/)
+
+---v---
+
+#### Network
+
+- [NGinx Proxy Manager](https://nginxproxymanager.com/)
 
 ---h---
 
@@ -24,9 +40,28 @@ verticalSeparator: ---v---
 
 ---h---
 
+### RGPD
+
+- Google Analytics
+- [Matomo](https://matomo.org/)
+
+- Segment
+
+---h---
+
 ### Veille technologique
 
 // TODO
+
+---v---
+
+### How to read documentation
+
+---v---
+
+### ChatGPT
+
+- rubber duck and nothing more
 
 ---h---
 
