@@ -25,7 +25,7 @@ npm install -g reveal-md
 #### Docker
 
 ```bash
-docker run --rm -p 1948:1948 -p 35729:35729 -v ${PWD}/markdown:/slides webpronl/reveal-md:latest ./ --watch --css ./style.css --listing-template ./listing.html
+docker run --rm -p 1948:1948 -p 35729:35729 -v ${PWD}/markdown:/slides webpronl/reveal-md:latest ./ --watch --css ./style.css --listing-template ./listing.html --config reveal.json
 ```
 
 ### Export to PDF
@@ -33,7 +33,7 @@ docker run --rm -p 1948:1948 -p 35729:35729 -v ${PWD}/markdown:/slides webpronl/
 Run the server.
 
 ```bash
-docker run --rm -p 1948:1948 -p 35729:35729 -v ${PWD}/markdown:/slides webpronl/reveal-md:latest ./ --watch --css ./style.css --listing-template ./listing.html
+docker run --rm -p 1948:1948 -p 35729:35729 -v ${PWD}/markdown:/slides webpronl/reveal-md:latest ./ --watch --css ./style.css --listing-template ./listing.html --config reveal.json
 ```
 
 Export the slides.
