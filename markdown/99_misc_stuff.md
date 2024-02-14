@@ -49,6 +49,13 @@ verticalSeparator: ---v---
 
 ---h---
 
+### Tests e2e
+
+- Selenium
+- Playwright
+
+---h---
+
 ### Veille technologique
 
 // TODO

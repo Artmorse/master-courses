@@ -249,52 +249,6 @@ swagger-ui, swagger-codegen
 
 ---h---
 
-![>icon](img/icons/question.png)
-
-### Comment tester son API?
-
----v---
-
-## avec cURL
-
-`curl -X GET "http://localhost:8080/app/api/user/list" -H  "accept: application/json"`
-
-note: attention à certains navigateurs/extensions qui peuvent forcer le https
-
----v---
-
-## ou avec Swagger...
-
----v---
-
-## ou avec Postman
-
-⬇️
-
-https://www.getpostman.com/
-
-Vous pouvez importer votre spec OpenAPI: _https://learning.postman.com/docs/designing-and-developing-your-api/importing-an-api/_.
-
----v---
-
-## ou avec Insomnia
-
-⬇️
-
-https://insomnia.rest/
-
-Vous pouvez importer votre spec OpenAPI: _https://docs.insomnia.rest/insomnia/import-export-data_.
-
----v---
-
-## ou avec IntelliJ Ultimate
-
-⬇️
-
-https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
-
----h---
-
 # What's next?
 
 ![>h whats next](https://media1.giphy.com/media/lPY5d1vUYBreWtF1I0/giphy.gif?cid=ecf05e47z07qnje9y5wmv28mtnh7wpchby5926gyhnojx0tw&ep=v1_gifs_search&rid=giphy.gif&ct=g)
@@ -303,4 +257,4 @@ https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
 
 ## 🙃 TP 🙃
 
-https://github.com/Artmorse/api-rest-tps/tree/tp01
+https://github.com/Artmorse/api-rest-tps/tree/tp03
