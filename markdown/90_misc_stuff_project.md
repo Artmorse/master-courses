@@ -27,7 +27,8 @@ misc stuff useful for the project 👀
 
 - [gitconfig](https://git-scm.com/docs/git-config)
 - [gitmoji](https://gitmoji.dev/)
-- [husky](https://github.com/typicode/husky) ⚠️ JS only
+- git hooks
+  - [husky](https://github.com/typicode/husky) ⚠️ JS only
 
 ---v---
 
